@@ -67,3 +67,21 @@
 .btn:hover{
   background-color: #595959;
 }
+
+body{
+  margin-left: 14%;
+}
+
+.bottom-nav li a{
+  color: white;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-nav li{
+  color: white;
+}
