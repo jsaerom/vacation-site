@@ -79,8 +79,6 @@ body{
   margin-left: 14%;
 }
 
-
-
 .nav li a{
   color: white;
 }
@@ -98,4 +96,8 @@ body{
 
 .bottom-nav li{
   color: white;
+}
+
+a > img:hover {
+  opacity: 0.5;
 }
