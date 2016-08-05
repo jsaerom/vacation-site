@@ -4,8 +4,10 @@ header{
 
 header h4{
   padding-right: 10px;
-  padding-left: 8px;
+  padding-left: 15px;
   color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
 }
 
 .jumbotron{
@@ -76,11 +78,12 @@ header h4{
 }
 
 body{
-  margin-left: 14%;
+  margin: 0 auto;
 }
 
 .nav li a{
   color: white;
+  align-items: center;
 }
 
 .nav li a:hover{
@@ -100,4 +103,18 @@ body{
 
 a > img:hover {
   opacity: 0.5;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .sub-content > .col-sm-4:last-child{
+    border-left: none;
+  }
+
+  .sub-content > .col-sm-4:first-child {
+    border-right: none;
+  }
 }
